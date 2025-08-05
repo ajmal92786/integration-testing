@@ -1,0 +1,23 @@
+{
+  "name": "integration-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node db/seed.js",
+    "seed:test": "NODE_ENV=test node db/seed_test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jest": "^30.0.5",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7",
+    "supertest": "^7.1.4"
+  }
+}
